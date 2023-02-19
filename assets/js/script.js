@@ -29,16 +29,16 @@
 // console.log(Test(1,2,3,4,6));
 
 
-// let num=prompt();
-// let result = num;
-// let sum = "";
-// for (let i = 0; i < result.length; i++) {
-//     sum+=num%10;
-//     num=Math.floor(num/10);
-// }
-// if(sum==result){
-//     console.log("polindrom");
-// }
-// else{
-//     console.log("deyil");
-// }
+let num=prompt();
+let result = num;
+let sum = "";
+for (let i = 0; i < result.length; i++) {
+    sum+=num%10;
+    num=Math.floor(num/10);
+}
+if(sum==result){
+    console.log("polindrom");
+}
+else{
+    console.log("deyil");
+}
